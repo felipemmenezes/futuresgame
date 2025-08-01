@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Thing from the Future - Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ARTEFATOS DOS FUTUROS GAME</h1>
+  <p class="credit">
+    Adaptado de <em>"The Thing From The Future"</em> de Stuart Candy e Jeff Watson por
+    <a href="https://felipemmenezes.com.br/home" target="_blank">Felipe Menezes</a>.
+  </p>
+  <p>Clique no botão abaixo para sortear as cartas e gerar um futuro especulativo.</p>
+
+  <div class="card-container">
+    <div class="card" id="moodCard">
+      <div class="card-title">em um futuro</div>
+      <div class="card-value" id="moodValue">---</div>
+    </div>
+
+    <div class="card" id="objectCard">
+      <div class="card-title">existe um(a)</div>
+      <div class="card-value" id="objectValue">---</div>
+    </div>
+
+    <div class="card" id="terrainCard">
+      <div class="card-title">relacionado(a) à</div>
+      <div class="card-value" id="terrainValue">---</div>
+    </div>
+  </div>
+
+  <button onclick="drawCards()">Sortear Cartas</button>
+  <div class="result" id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
