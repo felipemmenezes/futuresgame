@@ -22,6 +22,16 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.credit a {
+  color: #00ff80; /* verde neon */
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.credit a:hover {
+  color: #00cc66; /* verde neon mais escuro no hover */
+}
+
 .card-container {
   display: flex;
   justify-content: center;
