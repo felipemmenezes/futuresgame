@@ -1,13 +1,14 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #f0f8ff;
+  background-color: #0F0F0F; /* fundo preto */
   text-align: center;
   font-size: 14px;
   padding: 20px;
+  color: #ffffff; /* cor padrão do texto em branco */
 }
 
 h1 {
-  color: #333;
+  color: #F0F0F0; /* título em branco */
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
@@ -17,7 +18,7 @@ h1 {
 
 .credit {
   font-size: 11px;
-  color: gray;
+  color: #cccccc; /* cinza claro */
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -29,9 +30,9 @@ h1 {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #F0F0F0; /* cartas brancas */
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); /* sombra suave clara */
   width: 400px;
   height: 80px;
   display: flex;
@@ -40,7 +41,7 @@ h1 {
   align-items: center;
   margin: 10px;
   font-size: 18px;
-  color: #333;
+  color: #000000; /* texto preto */
   text-align: center;
   transition: transform 0.3s;
 }
@@ -53,6 +54,7 @@ h1 {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 10px;
+  color: #F0F0F0; /* preto */
 }
 
 .card-value {
@@ -60,7 +62,7 @@ h1 {
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  color: #007BFF;
+  color: #0F0F0F; /* preto */
 }
 
 .result {
@@ -68,7 +70,7 @@ h1 {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  color: #000000;
+  color: #F0F0F0; /* resultado em branco */
 }
 
 button {
@@ -77,8 +79,8 @@ button {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   margin-top: 20px;
-  background-color: #007BFF;
-  color: #fff;
+  background-color: #00ff00; /* verde neon */
+  color: #000000; /* texto preto */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -86,5 +88,5 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #00cc66; /* verde mais escuro no hover */
 }
