@@ -17,6 +17,6 @@ function drawCards() {
   document.getElementById('objectValue').innerText = object;
   document.getElementById('terrainValue').innerText = terrain;
 
-  const resultText = `Em um futuro <strong>${mood}</strong>, existe um(a) <strong>${object}</strong> relacionado(a) à <strong>${terrain}</strong>, o que é?`;
+  const resultText = `Em um futuro <strong>${mood}</strong>, existe um(a) <strong>${object}</strong> relacionado(a) à <strong>${terrain}</strong>, o que seria?`;
   document.getElementById('result').innerHTML = resultText;
 }
