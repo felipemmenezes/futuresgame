@@ -3,7 +3,7 @@ body {
   background-color: #242527; /* fundo preto */
   text-align: center;
   font-size: 14px;
-  padding: 20px;
+  padding: 15px;
   color: #ffffff; /* cor padrão do texto em branco */
 }
 
@@ -51,7 +51,7 @@ h1 {
   align-items: center;
   margin: 8px;
   font-size: 18px;
-  color: #000000; /* texto preto */
+  color: #0f0f0f; /* texto preto */
   text-align: center;
   transition: transform 0.3s;
 }
@@ -63,7 +63,7 @@ h1 {
 .card-title {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: #0F0F0F; /* preto */
 }
 
@@ -76,7 +76,7 @@ h1 {
 }
 
 .result {
-  margin-top: 20px;
+  margin-top: 16px;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
