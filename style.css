@@ -44,7 +44,7 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); /* sombra suave clara */
   width: 400px;
-  height: 80px;
+  height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
