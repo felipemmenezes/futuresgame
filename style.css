@@ -23,13 +23,13 @@ h1 {
 }
 
 .credit a {
-  color: #00ff80; /* verde neon */
+  color: #00ff00; /* verde neon */
   font-weight: bold;
   text-decoration: underline;
 }
 
 .credit a:hover {
-  color: #00cc66; /* verde neon mais escuro no hover */
+  color: #00ff00; /* verde neon mais escuro no hover */
 }
 
 .card-container {
